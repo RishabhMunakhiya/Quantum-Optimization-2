@@ -1,0 +1,8 @@
+Solver,Selected Tickers,Objective Cost,Expected Return (%),Volatility (%),Sharpe Ratio,Valid Budget,Violation,Approx Ratio,Time (s),Circuit Depth,CNOT Count
+Classical Exact (Brute Force),"AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,0.0003,-,-
+Classical Simulated Annealing,"AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,0.1081,-,-
+Classical Greedy (Top Sharpe),"MSFT, JPM",-0.74829,39.86,15.63,2.358,Yes,0,0.9903,0.0001,-,-
+Quantum Exact (NumPy Diagonalization),"AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,0.0093,-,-
+"Quantum QAOA (p=1, COBYLA)","AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,1.8911,19,12
+"Quantum QAOA (p=2, COBYLA)","AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,3.2627,33,24
+"Quantum VQE (TwoLocal, p=1)","AAPL, MSFT",-0.75559,41.04,18.05,2.107,Yes,0,1.0,0.6812,6,3

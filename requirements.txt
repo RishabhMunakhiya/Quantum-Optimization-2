@@ -1,0 +1,15 @@
+# Quantum Optimization Hackathon Stack (Track 2: Smarter Choices at Scale)
+# Tested on Python 3.11.9 (Windows x64)
+
+qiskit==2.5.2
+qiskit-algorithms==0.4.0
+qiskit-optimization==0.7.0
+docplex==2.32.264
+numpy>=1.26.0,<3.0.0
+scipy>=1.11.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+streamlit>=1.35.0
+tabulate>=0.9.0
+yfinance>=0.2.38
